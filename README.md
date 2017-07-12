@@ -1,2 +1,2 @@
 # Hello-World
-prima prova
+# prima prova, aggiunto gethostbyname
