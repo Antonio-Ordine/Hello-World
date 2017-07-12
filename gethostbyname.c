@@ -13,7 +13,7 @@ int main(int argc, char **argv) {
     hp = gethostbyname(argv[1]);
 
     if (hp == NULL) {
-       printf("gethostbyname() failed\n");
+       printf("gethostbyname() failed UFFA\n");
     } else {
        printf("%s = ", hp->h_name);
        unsigned int i=0;
