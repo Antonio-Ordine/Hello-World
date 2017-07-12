@@ -11,7 +11,7 @@ int main(int argc, char **argv) {
 
     struct hostent *hp;
     hp = gethostbyname(argv[1]);
-
+    printf("Una proma modifica è questa scritta, altra e UFFA dopo\n");
     if (hp == NULL) {
        printf("gethostbyname() failed UFFA\n");
     } else {
